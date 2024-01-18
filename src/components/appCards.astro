@@ -8,33 +8,32 @@
             <slot name="image" />
         </figure>
         <h3 class="mt-4 text-2xl font-bold text-center text-white">
-            <a
-                href="https://twitter.com/carmenansio"
-                target="_blank"
-                rel="external noopener nofollow"
-            >
-                <font style="vertical-align: inherit;">
-                    <slot name="Task" />
+            <font style="vertical-align: inherit;">
+                <slot name="Task">
                     Tomar agua
-                </font>
-            </a>
+                </slot>
+            </font>
         </h3>
         <p class="text-xl text-center text-sky-200">
             <font style="vertical-align: inherit;">
                 <font style="vertical-align: inherit;">
-                    <slot name="Description" />
-                    Esto es una prueba de la tarjeta de informacion de las tareas
+                    <slot name="Description">
+                        Esto es una prueba de la tarjeta de informacion de las tareas
+                    </slot>
                 </font>
             </font>
         </p>
         <p class="text-xs text-center text-sky-200">
             <font style="vertical-align: inherit; text-align: left;">
-                <slot name="TaskType" />
-                Tarea - 
+                <slot name="TaskType">
+                    Tarea  
+                </slot>
+                -
             </font>
             <font style="vertical-align: inherit; text-align: left;">
-                <slot name="TaskDate" />
-                Mier. 15/01
+                <slot name="TaskDate">
+                    Mier. 15/01
+                </slot>
             </font>
         </p>
     </div>

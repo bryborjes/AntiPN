@@ -16,7 +16,12 @@ import AppCards from "../components/appCards.astro";
                 Todo en un solo lugar.
             </p>
             <div class="grid grid-cols-1 my-16 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8">
-                <AppCards />
+                <AppCards>
+                    <span slot="Task">Hola mundo</span>
+                    <span slot="Description">Revisar la documentacion de astro </span>
+                    <span slot="TaskType">Tarea</span>
+                    <span slot="TaskDate">20 de Enero</span>
+                </AppCards>
                 <AppCards />
                 <AppCards />
                 <AppCards />
