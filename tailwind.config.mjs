@@ -18,7 +18,7 @@ module.exports = {
 	],
 
 	// enable dark mode via class strategy
-	darkMode: 'class',
+	darkMode: 'media',
 
 	// make sure to safelist these classes when using purge
 	safelist: [
