@@ -6,7 +6,8 @@ export default {
 	theme: {
 		extend: {},
 	},
-	plugins: [],
+	plugins: [
+	],
 }
 
 module.exports = {
@@ -18,7 +19,8 @@ module.exports = {
 	],
 
 	// enable dark mode via class strategy
-	darkMode: 'media',
+	darkMode: 'class',
+	//darkMode: 'media',
 
 	// make sure to safelist these classes when using purge
 	safelist: [
