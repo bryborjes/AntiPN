@@ -6,6 +6,7 @@ interface Props {
 const { title } = Astro.props;
 import NavBar from "../components/NavBar.astro";
 import Footer from "../components/Footer.astro";
+const cokies = Astro.cookies;
 ---
 
 <!doctype html>
@@ -28,7 +29,7 @@ import Footer from "../components/Footer.astro";
 				document.documentElement.classList.remove("dark");
 			}
 		</script>
-		<title>{title}</title>
+		<title>{title} - Anti NP</title>
 	</head>
 	<body class="bg-white text-black dark:text-white dark:bg-gray-900 min-h-screen pb-32">
 		<NavBar>

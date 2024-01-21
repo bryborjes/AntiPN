@@ -2,9 +2,9 @@
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Started - Anti Procrastinate Note">
+<Layout title="Started">
 	<div class="container">
-		<article>
+		<article class="overflow-y-scroll" id="Legend">
 			<h1>Guia de inicio</h1>
 			<p>Hola que tal, vienvenido a nuetro sitio web.</p>
 
@@ -16,13 +16,65 @@ import Layout from "../layouts/Layout.astro";
 			<h1 id="Start">Inicio</h1>
 			<p>
 				Para poder empezar a utilizar nuestra aplicacion nesecitas crear
-				una cuenta en nuestro sitio web para asi poder guerdar en
+				una cuenta en nuestro sitio web para asi poder guardar en
 				nuestra base de datos tus apuntes, notas y recordatorios que
-				anotes.
+				anotes. Es de suma importancia que agreges un numero o correo de
+				recuperacion para tu cuenta.
+			</p>
+			<h1 id="Controller">Controles de interfaz</h1>
+			<p>
+				Para poder empezar a utilizar nuestra aplicacion nesecitas crear
+				una cuenta en nuestro sitio web para asi poder guardar en
+				nuestra base de datos tus apuntes, notas y recordatorios que
+				anotes. Es de suma importancia que agreges un numero o correo de
+				recuperacion para tu cuenta.
+			</p>
+			<h1 id="ok">Controles de interfaz</h1>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+				Provident ipsum libero dignissimos placeat? Sunt neque,
+				blanditiis architecto minus praesentium dolores libero cum
+				suscipit, sed quis, obcaecati totam omnis exercitationem
+				repudiandae?
+			</p>
+			<h1 id="ok">Lorem ipsum dolor sit amet consectetur adipisicing eli.</h1>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+				Provident ipsum libero dignissimos placeat? Sunt neque,
+				blanditiis architecto minus praesentium dolores libero cum
+				suscipit, sed quis, obcaecati totam omnis exercitationem
+				repudiandae?
+			</p>
+			<h1 id="ok">Lorem ipsum dolor sit amet consectetur adipisicing eli.</h1>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+				Provident ipsum libero dignissimos placeat? Sunt neque,
+				blanditiis architecto minus praesentium dolores libero cum
+				suscipit, sed quis, obcaecati totam omnis exercitationem
+				repudiandae?
+			</p>
+			<h1 id="ok">Lorem ipsum dolor sit amet consectetur adipisicing eli.</h1>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+				Provident ipsum libero dignissimos placeat? Sunt neque,
+				blanditiis architecto minus praesentium dolores libero cum
+				suscipit, sed quis, obcaecati totam omnis exercitationem
+				repudiandae?
+			</p>
+			<h1 id="ok">Lorem ipsum dolor sit amet consectetur adipisicing eli.</h1>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+				Provident ipsum libero dignissimos placeat? Sunt neque,
+				blanditiis architecto minus praesentium dolores libero cum
+				suscipit, sed quis, obcaecati totam omnis exercitationem
+				repudiandae?
 			</p>
 		</article>
-		<aside>
-			<li><a href="#Start">Inicio</a></li>
+		<aside class="overflow-y-scroll">
+			<li><a class="hover:text-orange-500" href="#Start">Inicio</a></li>
+			<li>
+				<a class="hover:text-orange-500" href="#Controller">Interfaz</a>
+			</li>
 		</aside>
 	</div>
 </Layout>
@@ -31,15 +83,18 @@ import Layout from "../layouts/Layout.astro";
 	* {
 		text-wrap: balance;
 	}
+	#Legend {
+		height: 500px;
+	}
 	article {
 		grid-column: 2;
 	}
 
 	aside {
 		grid-column: 1;
-		grid-row:1;
+		grid-row: 1;
 		border-right: 1px solid #999;
-		margin-top:1rem;
+		margin-top: 1rem;
 		overflow-x: visible;
 	}
 
